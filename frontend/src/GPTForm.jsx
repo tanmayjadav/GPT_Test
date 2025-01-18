@@ -7,7 +7,7 @@ const GPTForm = () => {
   const [response, setResponse] = useState('');
   const [loading, setLoading] = useState(false);
   const [history, setHistory] = useState([]); // State to store history
-  const server = "http://localhost:5000";
+  const server = "https://gpt-test-y8az.onrender.com";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
